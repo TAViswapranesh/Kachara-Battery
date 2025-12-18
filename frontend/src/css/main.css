@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: #1f7a1f;
+  color: white;
+}
+
+.navbar nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar nav a:hover {
+  text-decoration: underline;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(to right, #1f7a1f, #2ea44f);
+  color: white;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.hero button {
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  background: white;
+  color: #1f7a1f;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.hero button:hover {
+  background: #e6e6e6;
+}
+
+/* SECTIONS */
+.about, .impact {
+  padding: 50px 40px;
+  text-align: center;
+}
+
+.impact ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.impact li {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+/* FOOTER */
+footer {
+  background: #222;
+  color: #ccc;
+  text-align: center;
+  padding: 15px;
+}
+.logo a {
+  color: white;
+  text-decoration: none;
+}
+.logo a:hover {
+  text-decoration: underline;
+}
+.market {
+  padding: 40px;
+  text-align: center;
+}
+
+.market-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.card {
+  background: #f5f5f5;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+.card button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  background: #2c7be5;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.support {
+  padding: 40px;
+  text-align: center;
+}
+
+.support-box {
+  background: #f5f5f5;
+  padding: 20px;
+  max-width: 400px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+.support-box button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  background: #28a745;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
